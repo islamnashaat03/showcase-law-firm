@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "templateId": "law-firm",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "كالدر ورو — محاماة",
+    "en": "Calder & Rowe — Law firm"
+  },
+  "industry": {
+    "ar": "مكتب محاماة",
+    "en": "Law firm"
+  },
+  "capabilities": [
+    "practice-details",
+    "team-profiles",
+    "insights",
+    "local-contact-form"
+  ],
+  "futureModules": [],
+  "palette": {
+    "primary": "#153343",
+    "background": "#f5f2ec",
+    "accent": "#a28753"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "كالدر ورو"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "مجالات الممارسة"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "نهجنا"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "فريقنا"
+    },
+    {
+      "path": "/nav/3",
+      "type": "text",
+      "default": "رؤى وأفكار"
+    },
+    {
+      "path": "/nav/4",
+      "type": "text",
+      "default": "تواصل معنا"
+    },
+    {
+      "path": "/menu",
+      "type": "text",
+      "default": "فتح قائمة التصفح"
+    },
+    {
+      "path": "/close",
+      "type": "text",
+      "default": "إغلاق قائمة التصفح"
+    },
+    {
+      "path": "/cta",
+      "type": "text",
+      "default": "طلب استشارة"
+    },
+    {
+      "path": "/hero/title",
+      "type": "text",
+      "default": "وضوحٌ للقرارات التي تصنع الفارق."
+    },
+    {
+      "path": "/hero/text",
+      "type": "text",
+      "default": "مشورة قانونية عملية للأفراد والشركات النامية، باهتمام ووضوح ورؤية بعيدة المدى."
+    },
+    {
+      "path": "/hero/aside/0",
+      "type": "text",
+      "default": "الأفراد"
+    },
+    {
+      "path": "/hero/aside/1",
+      "type": "text",
+      "default": "الأعمال"
+    },
+    {
+      "path": "/hero/aside/2",
+      "type": "text",
+      "default": "غدٌ أكثر وضوحًا"
+    },
+    {
+      "path": "/hero/alt",
+      "type": "text",
+      "default": "ضوء الشمس على أعمدة حجرية منحوتة في مبنى كلاسيكي"
+    },
+    {
+      "path": "/practice/title",
+      "type": "text",
+      "default": "مجالات ممارستنا"
+    },
+    {
+      "path": "/practice/intro",
+      "type": "text",
+      "default": "نساند الأفراد والشركات النامية في المسائل التي ترسم خطواتهم المقبلة، بنهج تعاوني يركز على النتائج العملية."
+    },
+    {
+      "path": "/practice/select",
+      "type": "text",
+      "default": "مناقشة هذا المجال"
+    },
+    {
+      "path": "/practice/items/0/id",
+      "type": "text",
+      "default": "commercial"
+    },
+    {
+      "path": "/practice/items/0/title",
+      "type": "text",
+      "default": "الأعمال والشؤون التجارية"
+    },
+    {
+      "path": "/practice/items/0/text",
+      "type": "text",
+      "default": "من الاتفاق الأول إلى مرحلة النمو التالية، دعم مدروس للقرارات التي تقوم عليها أعمالك."
+    },
+    {
+      "path": "/practice/items/0/topics/0",
+      "type": "text",
+      "default": "الاتفاقيات التجارية"
+    },
+    {
+      "path": "/practice/items/0/topics/1",
+      "type": "text",
+      "default": "هياكل الأعمال"
+    },
+    {
+      "path": "/practice/items/0/topics/2",
+      "type": "text",
+      "default": "المعاملات والنمو"
+    },
+    {
+      "path": "/practice/items/1/id",
+      "type": "text",
+      "default": "wealth"
+    },
+    {
+      "path": "/practice/items/1/title",
+      "type": "text",
+      "default": "الثروات الخاصة والتعاقب"
+    },
+    {
+      "path": "/practice/items/1/text",
+      "type": "text",
+      "default": "حوار هادئ حول أولوياتك والأشخاص المهمين في حياتك وطريقة تخطيطك للمستقبل."
+    },
+    {
+      "path": "/practice/items/1/topics/0",
+      "type": "text",
+      "default": "التخطيط الشخصي"
+    },
+    {
+      "path": "/practice/items/1/topics/1",
+      "type": "text",
+      "default": "استمرارية الأعمال العائلية"
+    },
+    {
+      "path": "/practice/items/1/topics/2",
+      "type": "text",
+      "default": "حوارات التعاقب"
+    },
+    {
+      "path": "/practice/items/2/id",
+      "type": "text",
+      "default": "employment"
+    },
+    {
+      "path": "/practice/items/2/title",
+      "type": "text",
+      "default": "العمل وبيئة الأعمال"
+    },
+    {
+      "path": "/practice/items/2/text",
+      "type": "text",
+      "default": "بداية عملية لأصحاب الأعمال والأفراد في المسائل المتعلقة بعلاقة العمل."
+    },
+    {
+      "path": "/practice/items/2/topics/0",
+      "type": "text",
+      "default": "اتفاقيات العمل"
+    },
+    {
+      "path": "/practice/items/2/topics/1",
+      "type": "text",
+      "default": "السياسات والإجراءات"
+    },
+    {
+      "path": "/practice/items/2/topics/2",
+      "type": "text",
+      "default": "تغيّر ترتيبات العمل"
+    },
+    {
+      "path": "/practice/items/3/id",
+      "type": "text",
+      "default": "disputes"
+    },
+    {
+      "path": "/practice/items/3/title",
+      "type": "text",
+      "default": "النزاعات وإدارة المخاطر"
+    },
+    {
+      "path": "/practice/items/3/text",
+      "type": "text",
+      "default": "رؤية متأنية للموقف وفهم الخيارات الممكنة للوصول إلى مسار مدروس."
+    },
+    {
+      "path": "/practice/items/3/topics/0",
+      "type": "text",
+      "default": "التقييم المبدئي"
+    },
+    {
+      "path": "/practice/items/3/topics/1",
+      "type": "text",
+      "default": "الخلافات التجارية"
+    },
+    {
+      "path": "/practice/items/3/topics/2",
+      "type": "text",
+      "default": "خيارات التسوية"
+    },
+    {
+      "path": "/practice/items/4/id",
+      "type": "text",
+      "default": "property"
+    },
+    {
+      "path": "/practice/items/4/title",
+      "type": "text",
+      "default": "العقارات والأملاك"
+    },
+    {
+      "path": "/practice/items/4/text",
+      "type": "text",
+      "default": "حوارات واضحة حول المستندات والأطراف والقرارات المرتبطة بالمسائل العقارية."
+    },
+    {
+      "path": "/practice/items/4/topics/0",
+      "type": "text",
+      "default": "العقارات التجارية"
+    },
+    {
+      "path": "/practice/items/4/topics/1",
+      "type": "text",
+      "default": "مناقشات الإيجار"
+    },
+    {
+      "path": "/practice/items/4/topics/2",
+      "type": "text",
+      "default": "المعاملات العقارية"
+    },
+    {
+      "path": "/practice/items/5/id",
+      "type": "text",
+      "default": "individual"
+    },
+    {
+      "path": "/practice/items/5/title",
+      "type": "text",
+      "default": "المسائل القانونية الشخصية"
+    },
+    {
+      "path": "/practice/items/5/text",
+      "type": "text",
+      "default": "حوار أول يراعي ظروفك والأهداف التي ترغب في الوصول إليها."
+    },
+    {
+      "path": "/practice/items/5/topics/0",
+      "type": "text",
+      "default": "الاتفاقيات الشخصية"
+    },
+    {
+      "path": "/practice/items/5/topics/1",
+      "type": "text",
+      "default": "التخطيط للخطوة التالية"
+    },
+    {
+      "path": "/practice/items/5/topics/2",
+      "type": "text",
+      "default": "التنسيق مع مستشاريك"
+    },
+    {
+      "path": "/approach/title",
+      "type": "text",
+      "default": "مشورة مدروسة لما يأتي بعد ذلك."
+    },
+    {
+      "path": "/approach/paragraphs/0",
+      "type": "text",
+      "default": "تبدأ القرارات الجيدة برؤية واضحة. نمنح أنفسنا الوقت لفهم أهدافك والسياق الذي تتحرك فيه والخيارات المتاحة لك، لتتقدم بثقة."
+    },
+    {
+      "path": "/approach/paragraphs/1",
+      "type": "text",
+      "default": "دورنا هو تقديم الوضوح والمنظور والتفكير العملي في الأسئلة المعقدة، ومساعدتك في الحفاظ على ما يهمك والتخطيط لما هو قادم."
+    },
+    {
+      "path": "/approach/alt",
+      "type": "text",
+      "default": "مكاتب معاصرة هادئة بإضاءة طبيعية وغرف اجتماعات خاصة"
+    },
+    {
+      "path": "/people/title",
+      "type": "text",
+      "default": "تعرّف إلى فريقنا"
+    },
+    {
+      "path": "/people/intro",
+      "type": "text",
+      "default": "يبدأ الاهتمام الشخصي بحوار. تعرّف إلى الشخصيات الخيالية في هذا النموذج."
+    },
+    {
+      "path": "/people/more",
+      "type": "text",
+      "default": "قراءة الملف"
+    },
+    {
+      "path": "/people/note",
+      "type": "text",
+      "default": "ملف توضيحي. الأسماء والأدوار خيالية."
+    },
+    {
+      "path": "/people/items/0/name",
+      "type": "text",
+      "default": "دانيال كالدر"
+    },
+    {
+      "path": "/people/items/0/role",
+      "type": "text",
+      "default": "الأعمال والمسائل الخاصة"
+    },
+    {
+      "path": "/people/items/0/image",
+      "type": "image",
+      "default": "daniel.webp"
+    },
+    {
+      "path": "/people/items/0/intro",
+      "type": "text",
+      "default": "منظور متأنٍ للقرارات التجارية والأولويات الشخصية والعلاقة بينهما."
+    },
+    {
+      "path": "/people/items/0/detail",
+      "type": "text",
+      "default": "يوضح هذا الملف التجريبي طريقة تقديم أعضاء فريق مكتب مستقل بأسلوب واضح. تشمل الاهتمامات التوضيحية الاتفاقيات التجارية والتخطيط طويل المدى والتعاون مع المستشارين. هذه سيرة خيالية لا تتضمن ادعاءً بمؤهلات حقيقية أو تسجيل مهني."
+    },
+    {
+      "path": "/people/items/1/name",
+      "type": "text",
+      "default": "ريبيكا رو"
+    },
+    {
+      "path": "/people/items/1/role",
+      "type": "text",
+      "default": "التخطيط والتسوية"
+    },
+    {
+      "path": "/people/items/1/image",
+      "type": "image",
+      "default": "rebecca.webp"
+    },
+    {
+      "path": "/people/items/1/intro",
+      "type": "text",
+      "default": "نهج يضع الإنسان أولًا في التخطيط للمستقبل والوصول إلى خطوات عملية خلال التغيير."
+    },
+    {
+      "path": "/people/items/1/detail",
+      "type": "text",
+      "default": "يقدم هذا الملف التجريبي نهجًا هادئًا ومتاحًا للعلاقات مع العملاء. تشمل الاهتمامات النموذجية حوارات التعاقب والمسائل الفردية والتخطيط للتسوية. هذه سيرة خيالية لا تتضمن ادعاءً بمؤهلات حقيقية أو تسجيل مهني."
+    },
+    {
+      "path": "/process/title",
+      "type": "text",
+      "default": "خطوة تالية واضحة"
+    },
+    {
+      "path": "/process/intro",
+      "type": "text",
+      "default": "صممنا رحلة الاستشارة لتكون مباشرة ومركّزة وتحترم وقتك."
+    },
+    {
+      "path": "/process/steps/0/title",
+      "type": "text",
+      "default": "الحوار الأول"
+    },
+    {
+      "path": "/process/steps/0/text",
+      "type": "text",
+      "default": "نناقش الموقف ونفهم أهدافك ونستكشف كيف يمكننا المساعدة."
+    },
+    {
+      "path": "/process/steps/1/title",
+      "type": "text",
+      "default": "مشورة محددة"
+    },
+    {
+      "path": "/process/steps/1/text",
+      "type": "text",
+      "default": "نتفق على نطاق العمل والأسئلة التي نحتاج إلى بحثها ونوضح الخطوات المقترحة."
+    },
+    {
+      "path": "/process/steps/2/title",
+      "type": "text",
+      "default": "تقدّم بثقة"
+    },
+    {
+      "path": "/process/steps/2/text",
+      "type": "text",
+      "default": "تصبح لديك خطة واضحة للعمل والتواصل والقرارات المقبلة."
+    },
+    {
+      "path": "/insights/title",
+      "type": "text",
+      "default": "ملاحظات ورؤى"
+    },
+    {
+      "path": "/insights/intro",
+      "type": "text",
+      "default": "أسئلة مفيدة ووجهات نظر متأنية للقرارات المقبلة."
+    },
+    {
+      "path": "/insights/read",
+      "type": "text",
+      "default": "قراءة الرؤية"
+    },
+    {
+      "path": "/insights/note",
+      "type": "text",
+      "default": "محتوى تحريري توضيحي، وليس مشورة قانونية."
+    },
+    {
+      "path": "/insights/items/0/category",
+      "type": "text",
+      "default": "الأعمال والشؤون التجارية"
+    },
+    {
+      "path": "/insights/items/0/title",
+      "type": "text",
+      "default": "أسئلة مهمة عند دخول سوق جديدة"
+    },
+    {
+      "path": "/insights/items/0/text",
+      "type": "text",
+      "default": "يبدأ الحوار المفيد بالأشخاص والأولويات والقرارات العملية وراء الفرصة الجديدة."
+    },
+    {
+      "path": "/insights/items/0/image",
+      "type": "image",
+      "default": "workplace.webp"
+    },
+    {
+      "path": "/insights/items/0/body/0",
+      "type": "text",
+      "default": "ما الذي تريد أن تتيحه المرحلة التالية لأعمالك؟ قد يكون من المفيد قبل النقاش وصف الفرصة بلغة بسيطة وتحديد الأشخاص المعنيين."
+    },
+    {
+      "path": "/insights/items/0/body/1",
+      "type": "text",
+      "default": "يعرض هذا المقال النموذجي تنسيقًا تحريريًا قصيرًا. لا يشرح قوانين أي دولة ولا يحل محل المشورة المناسبة لمسألة محددة."
+    },
+    {
+      "path": "/insights/items/1/category",
+      "type": "text",
+      "default": "الثروات الخاصة والتعاقب"
+    },
+    {
+      "path": "/insights/items/1/title",
+      "type": "text",
+      "default": "إفساح المجال للجيل القادم"
+    },
+    {
+      "path": "/insights/items/1/text",
+      "type": "text",
+      "default": "بداية مدروسة لحوار حول الأشخاص والأولويات التي تشكّل خطتك طويلة المدى."
+    },
+    {
+      "path": "/insights/items/1/image",
+      "type": "image",
+      "default": "library.webp"
+    },
+    {
+      "path": "/insights/items/1/body/0",
+      "type": "text",
+      "default": "تبدأ حوارات التخطيط غالبًا بالأولويات: الأشخاص المهمون وما ترغب في الحفاظ عليه والأسئلة التي تحتاج إلى مزيد من الوقت."
+    },
+    {
+      "path": "/insights/items/1/body/1",
+      "type": "text",
+      "default": "هذا محتوى توضيحي للصفحة الرئيسية، ولا يتضمن توصيات قانونية أو مالية أو ضريبية. المسائل الفعلية تحتاج إلى مختص مؤهل."
+    },
+    {
+      "path": "/faq/title",
+      "type": "text",
+      "default": "أسئلة شائعة حول الاستشارة"
+    },
+    {
+      "path": "/faq/intro",
+      "type": "text",
+      "default": "بعض الأمور التي قد ترغب في معرفتها قبل بدء الحوار."
+    },
+    {
+      "path": "/faq/items/0/title",
+      "type": "text",
+      "default": "ماذا يحدث في الاستشارة الأولى؟"
+    },
+    {
+      "path": "/faq/items/0/content",
+      "type": "text",
+      "default": "في هذا النموذج يُجهَّز موضوع الاستشارة وبيانات التواصل محليًا فقط. في مكتب فعلي، يساعد الحوار الأول على فهم المسألة وتحديد الفريق المناسب ونطاق العمل المقترح."
+    },
+    {
+      "path": "/faq/items/1/title",
+      "type": "text",
+      "default": "كيف يُتفق على نطاق العمل؟"
+    },
+    {
+      "path": "/faq/items/1/content",
+      "type": "text",
+      "default": "تتيح العملية النموذجية توضيح الأهداف والمسؤوليات والأتعاب المقترحة قبل أي تعاقد. هذا العرض لا ينشئ تعاقدًا أو علاقة مهنية."
+    },
+    {
+      "path": "/faq/items/2/title",
+      "type": "text",
+      "default": "هل يمكن التعاون مع مستشارينا الحاليين؟"
+    },
+    {
+      "path": "/faq/items/2/content",
+      "type": "text",
+      "default": "يقوم المكتب التجريبي على نهج تعاوني. في التعامل الفعلي يُتفق على الصلاحيات والمسؤوليات قبل مشاركة أي معلومات."
+    },
+    {
+      "path": "/faq/items/3/title",
+      "type": "text",
+      "default": "ما المعلومات التي أكتبها في الطلب؟"
+    },
+    {
+      "path": "/faq/items/3/content",
+      "type": "text",
+      "default": "استخدم اسمًا وبريدًا إلكترونيًا ومجال ممارسة عامًّا لتجربة النموذج. لا ترفق مستندات سرية أو ظروفًا شخصية مفصّلة أو معلومات حساسة. لن يُرسل أي شيء."
+    },
+    {
+      "path": "/contact/title",
+      "type": "text",
+      "default": "لنتحدث عمّا هو قادم."
+    },
+    {
+      "path": "/contact/text",
+      "type": "text",
+      "default": "ابدأ بتعريف بسيط. اختر مجال الممارسة وجهّز طلب استشارة."
+    },
+    {
+      "path": "/contact/alt",
+      "type": "text",
+      "default": "ممر مكتبي هادئ يضم مساحات للاجتماعات"
+    },
+    {
+      "path": "/form/title",
+      "type": "text",
+      "default": "ابدأ الحوار"
+    },
+    {
+      "path": "/form/practice",
+      "type": "text",
+      "default": "مجال الممارسة"
+    },
+    {
+      "path": "/form/name",
+      "type": "text",
+      "default": "الاسم"
+    },
+    {
+      "path": "/form/email",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/form/submit",
+      "type": "text",
+      "default": "تجهيز طلب الاستشارة"
+    },
+    {
+      "path": "/form/note",
+      "type": "text",
+      "default": "اختر موضوعًا عامًا فقط. يُرجى عدم مشاركة معلومات سرية."
+    },
+    {
+      "path": "/form/general",
+      "type": "text",
+      "default": "تواصل تعريفي عام"
+    },
+    {
+      "path": "/footer",
+      "type": "text",
+      "default": "نشاط خيالي. نموذج للصفحة الرئيسية."
+    },
+    {
+      "path": "/copyright",
+      "type": "text",
+      "default": "كالدر ورو · عرض تصميمي"
+    }
+  ],
+  "sections": [
+    {
+      "id": "law-hero",
+      "enabled": true
+    },
+    {
+      "id": "law-practice",
+      "enabled": true
+    },
+    {
+      "id": "law-approach",
+      "enabled": true
+    },
+    {
+      "id": "law-people",
+      "enabled": true
+    },
+    {
+      "id": "law-process",
+      "enabled": true
+    },
+    {
+      "id": "law-insights",
+      "enabled": true
+    },
+    {
+      "id": "law-faq",
+      "enabled": true
+    },
+    {
+      "id": "law-contact",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://law.islamnashaat.com"
+}
